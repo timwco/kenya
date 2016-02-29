@@ -1,0 +1,41 @@
+.banner {
+  background: url(../images/background.png) 0 0 #6a8a8b;
+  background-size: cover;
+}
+
+.progress.success .meter {
+  background: $subsidiary-color;
+}
+
+.goals {
+  div {
+    background-color: #698688;
+    padding: 3px 10px;
+    border-radius: 4px;
+  }
+  .goal-left {
+    float: left;
+  }
+  .goal-right {
+    float: right;
+  }
+}
+
+.bold {
+  font-size: bold;
+}
+
+.smaller {
+  font-size: 12px;
+}
+.services h5 {
+  margin-top: 35px;
+}
+
+a {
+  color: $main-color;
+}
+
+button, .button {
+  color: white;
+}
