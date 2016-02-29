@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node-sass -w scss/app.scss stylesheets/app.css"
+    "server": "python -m SimpleHTTPServer 8000",
+    "watch:css": "node-sass -w scss/app.scss stylesheets/app.css",
+    "dev": "parallelshell \"npm run server\" \"npm run watch:css\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "3.4.2"
+    "node-sass": "3.4.2",
+    "parallelshell": "2.0.0"
   }
 }
