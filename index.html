@@ -21,12 +21,11 @@
           </div>
         </div>
 
-        <div class="progress success radius">
-          <span class="meter" style="width: 50%"></span>
-        </div>
+        <div id="progress" class="progress success radius"></div>
+
         <div class="goals">
-          <div class="goal-left">Raised: $0</div>
-          <div class="goal-right">Goal: $6,000</div>
+          <div class="goal-left">Raised: $<span id="raised"></span></div>
+          <div class="goal-right">Goal: $<span id="goal"></span></div>
         </div>
       </div>
     </div>
@@ -36,10 +35,10 @@
 
     <div class="row">
       <div class="medium-4 columns">
-        <a class="large radius button" href="https://canopylife.org/donate">Donate Online</a>
-        <div class="medium-12 columns space-up">
+        <a class="large radius button" target="_blank" href="https://canopylife.org/donate">Donate Online</a>
+        <div class="medium-12 columns">
           <h5>Join Our Newsletter</h5>
-          <p>If you'd like to stay up to date with our progress and this trip, you can <a href="http://eepurl.com/bSaWGX">sign up here</a> for updates.</p>
+          <p>If you'd like to stay up to date with our progress and this trip, you can <a target="_blank" href="http://eepurl.com/bSaWGX">sign up here</a> for updates.</p>
         </div>
       </div>
       <div class="medium-8 columns">
@@ -77,6 +76,8 @@
     </div>
 
   </section>
+
+  <script src="js/index.js"></script>
 
 </body>
 </html>

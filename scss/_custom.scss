@@ -1,3 +1,37 @@
+.meter {
+  text-align: right;
+  padding-right: 6px;
+  font-size: 14px;
+  position: relative;
+}
+
+
+.percentage {
+  position: absolute;
+  top: -33px;
+  right: -14px;
+  background-color: #e9bea8;
+  border-radius: 4px;
+  padding: 2px 5px 0 5px;
+  font-size: 12px;
+
+  &:after {
+    top: 100%;
+  	left: 50%;
+  	border: solid transparent;
+  	content: " ";
+  	height: 0;
+  	width: 0;
+  	position: absolute;
+  	pointer-events: none;
+  	border-color: rgba(233, 190, 168, 0);
+  	border-top-color: #e9bea8;
+  	border-width: 6px;
+  	margin-left: -6px;
+  }
+}
+
+
 .banner {
   background: url(../images/background.png) 0 0 #6a8a8b;
   background-size: cover;
@@ -9,7 +43,7 @@
 
 .goals {
   div {
-    background-color: #698688;
+    background-color: darken(#698688, 10%);
     padding: 3px 10px;
     border-radius: 4px;
   }
@@ -34,6 +68,7 @@
 
 a {
   color: $main-color;
+  text-decoration: underline;
 }
 
 button, .button {
