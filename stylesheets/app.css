@@ -3099,9 +3099,15 @@ footer {
 
 .goals .goal-left {
   float: left; }
+  .goals .goal-left small {
+    vertical-align: top; }
 
 .goals .goal-right {
   float: right; }
+
+.notes {
+  text-align: left;
+  clear: both; }
 
 .bold {
   font-size: bold; }

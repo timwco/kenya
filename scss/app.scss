@@ -51,10 +51,17 @@
   }
   .goal-left {
     float: left;
+    small {
+      vertical-align: top;
+    }
   }
   .goal-right {
     float: right;
   }
+}
+.notes {
+  text-align: left;
+  clear: both;
 }
 
 .bold {
