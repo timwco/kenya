@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  buildDisplay(550, 6000);
+  buildDisplay(1350, 6000);
 
   function createProgress (percent) {
     var bar         = document.createElement('span');
