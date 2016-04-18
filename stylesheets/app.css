@@ -3063,6 +3063,13 @@ footer {
   font-size: 14px;
   position: relative; }
 
+.banner p.lead {
+  margin-bottom: 1.875rem; }
+  .banner p.lead a {
+    color: #eabda7;
+    font-size: 14px;
+    text-decoration: none; }
+
 .percentage {
   position: absolute;
   top: -33px;
@@ -3125,8 +3132,15 @@ a {
 button, .button {
   color: white; }
 
+.centered {
+  text-align: center; }
+
 .standout {
   text-align: center;
-  font-size: 18px; }
+  font-size: 18px;
+  font-style: italic; }
   .standout a {
     text-decoration: none; }
+
+.about-trip h3 {
+  margin-bottom: 20px; }

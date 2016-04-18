@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "python -m SimpleHTTPServer 8000",
+    "server": "http-server ./",
     "watch:css": "node-sass -w scss/app.scss stylesheets/app.css",
     "dev": "parallelshell \"npm run server\" \"npm run watch:css\""
   },
